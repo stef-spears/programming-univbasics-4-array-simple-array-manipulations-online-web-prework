@@ -31,5 +31,12 @@ def using_insert(Array, Element)
 end
 
 def using_uniq(Array)
-  
-  
+  Array.uniq
+end
+
+def using_flatten(Array)
+  p Array.flatten
+end
+
+def using_delete(Array, String)
+  Array.delete(String)
